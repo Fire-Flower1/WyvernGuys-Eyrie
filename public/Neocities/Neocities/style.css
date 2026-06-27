@@ -77,14 +77,6 @@ li{
     border-radius: 5px;
     outline-color: #7b55e1;
     background-color: #2e2053;
-}
-.microentry{
-    margin: 10px;
-    padding: 7px;
-    outline-style: solid;
-    border-radius: 5px;
-    outline-color: #7b55e1;
-    background-color: #2e2053;
     color: #5be1c9;
 }
 
@@ -127,6 +119,7 @@ li{
 .pet{
     flex-shrink: 0;
     padding: 10px;
+    padding-right: 20px;
 }
 
 
@@ -185,4 +178,11 @@ hr.style-two {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #49E697;
+    background-image: linear-gradient(to right, #56b284, #49E697, #56b284);
 }
