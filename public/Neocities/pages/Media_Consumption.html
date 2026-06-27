@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+      .flex-container{
+        margin: 20px;
+      }
+      .maintext{
+        text-align: center;
+      }
+      .CenterBody{
+        flex: 1;
+        padding-top: 0px;
+      }
+      .sideright{
+        width: 300px;
+        
+      }
+      .bookdesc{
+        width: 250px;
+        padding: 10px;
+        border-style: solid;
+        border-radius: 5px;
+        border-color: 7b55e1;
+        color: #7b55e1;
+      }
+      .book{
+        height: 200px;
+      }
+      .topbanner{
+        display: inline-grid;
+        justify-self: center;
+        width: 80%;
+        overflow: hidden;
+        border-style: solid;
+        border-radius: 5px;
+        border-color: #7b55e1;
+        color: #49E697;
+        white-space: nowrap;
+      }
+      .scrollingstuff{
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding-left: 100%;
+        animation: scroll-left 12s linear infinite;
+        
+      }
+      @keyframes scroll-left{
+        from {
+          transform: translateX(0%);
+        }
+        to {
+          transform: translateX(-180%);
+        }
+      }
+
+      .dropdown {
+        border-radius: 5px;
+        outline-style: solid;
+        outline-color: #49E697;
+        outline-width: medium;
+        margin: auto;
+        padding: 5px;
+        padding-left: 5px;
+        display: inline-grid;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="titlediv"><h1>Media I have consumed/Want to consume</h1></div>
+      <div class="topbanner">
+        <div class="scrollingstuff">
+            <img src="/img_assets/media_consumption/kirby.gif" width="40">
+            <span>wow this is just like the book Corner... </span>
+            <img src="/img_assets/media_consumption/film_reel.png" width="40">
+        </div>
+      </div>
+      <div class="flex-container">
+        <div class="CenterBody">
+            <details class="dropdown">
+                <summary>
+                    Movies
+                </summary>
+                <hr class="style-one">
+                <div>
+                    <figure>
+                        <img class="book" src="/img_assets/media_consumption/movies/phm.jpg">
+                        <details>
+                        <summary>My Thoughts</summary>
+                        <p class="bookdesc">This movie was so good, I loved the storytelling and the visuals. My teacher made me watch it, and the next day Artemis 2 launched.</p>
+                        </details>
+                    </figure>
+                </div>
+                <div class="sideleft">
+                    <h3>Book I'm reading</h3>
+                    <p>None yet</p>
+                </div>
+            </details>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <a href="https://wyvernguy.neocities.org/"><img src="/img_assets/buttons/ButtonAnim.gif"></a>
+    <br>
+  </body>
+</html>

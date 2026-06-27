@@ -1,0 +1,188 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color: #242424;
+  color: #49E697;
+  font-family: monospace;
+  text-align: center;
+}
+
+
+.title-image {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: 20px auto 0 auto;
+}
+
+.titlediv{
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  padding-left: 20px;
+  margin: 10px auto;
+}
+
+ol {
+  display: inline-block;
+  text-align: left;
+  padding-left: 20px;
+  margin: 10px auto;
+}
+
+li{
+    padding: 6px;
+    font-size: 100%;
+}
+
+.flex-container{
+    display: flex;
+}
+.CenterBody{
+    margin: auto;
+    height: auto;
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+.maintext{
+    border-radius: 5px;
+    outline-style: solid;
+    outline-color: #49E697;
+    outline-width: medium;
+    margin: auto;
+    padding: 1px;
+    padding-left: 5px;
+    text-align: left;
+}
+.bottombanner{
+    border-radius: 5px;
+    outline-style: none;
+    outline-color: #49E697;
+    outline-width: medium;
+    margin-top: 20px;
+    padding: 1px;
+}
+
+.microblog{
+    margin: 10px;
+    padding: 7px;
+    outline-style: solid;
+    border-radius: 5px;
+    outline-color: #7b55e1;
+    background-color: #2e2053;
+    color: #5be1c9;
+}
+
+.sideleft{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 225px;
+
+    border-radius: 5px;
+    outline-style: solid;
+    outline-color: #49E697;
+    outline-width: medium;
+    font-size: 13px;
+}
+.sideright{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 200px;
+
+    border-radius: 5px;
+    outline-style: solid;
+    outline-color: #49E697;
+    outline-width: medium;
+
+    font-size: 13px;
+}
+.bottomHalf{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.news{
+    flex: 1;
+    border: 1px;
+}
+.pet{
+    flex-shrink: 0;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+
+a:link{
+    color:rgb(174, 179, 183);
+}
+a:visited{
+    color: rgb(141, 145, 149);
+}
+
+.links{
+    justify-content: center;
+    list-style-type:'> ';
+    padding-left: 0px;
+    font-size: 15px;
+}
+button{
+    background-color: #393939; 
+    border: 2px solid #49E697; 
+    border-radius: 5px; 
+    color: #49E697;
+}
+
+
+figcaption{
+    border: 2px solid #49E697; 
+    border-radius: 5px; 
+    color: #49E697;
+}
+
+figure{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+
+@keyframes shake {
+ 0% { transform: translateX(0) }
+ 25% { transform: translateX(3px) }
+ 50% { transform: translateX(-3px) }
+ 75% { transform: translateX(3px) }
+ 100% { transform: translateX(0) }
+}
+
+.shake {
+  display: inline-block;
+  animation: shake 0.75s infinite;
+}
+
+/* Flaired edges, by Tomas Theunissen */
+
+
+/* Gradient transparent - color - transparent */
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #49E697;
+    background-image: linear-gradient(to right, #56b284, #49E697, #56b284);
+}
