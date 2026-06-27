@@ -127,6 +127,7 @@ li{
 .pet{
     flex-shrink: 0;
     padding: 10px;
+    padding-right: 30px;
 }
 
 
